@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Kasabeh Print</string>
+    <string name="connect_fail">Printer connection error</string>
+    <string name="connect_lost">Disconnected</string>
+    <string name="not_connected">Connection is not established</string>
+    <string name="title_paired_devices">Paired devices</string>
+    <string name="title_other_devices">Other devices</string>
+    <string name="button_scan">Scan devices</string>
+    <string name="none_paired">No device found</string>
+    <string name="scanning">Searching&#8230;</string>
+    <string name="select_device">Select device</string>
+    <string name="none_found">No device found</string>
+    <string name="connected">Connect to</string>
+    <string name="bluetooth_not_available">Bluetooth not available</string>
+    <string name="turnon_bluetooth">Turn on Bluetooth</string>
+    <string name="pic_load_error">Error in loading picture</string>
+    <string name="bixolon_brand">Bixolon</string>
+    <string name="rongta_brand">Rongta</string>
+    <string name="woosim_brand">Woosim</string>
+    <string name="other_brands">Other printers</string>
+    <string name="description">By using this app you can print on any brand of Bluetooth printers, for example Bixolon, Woosim, Sewoo, Rongta, Baby, Delta, etc.
+        \n\nChoose your printer brand:
+    </string>
+    <string name="do_print">Print</string>
+    <string name="print_succ">Print done successfully</string>
+    <string name="print_error">Error in printing</string>
+    <string name="choose_printer">Choose your printer brand</string>
+</resources>

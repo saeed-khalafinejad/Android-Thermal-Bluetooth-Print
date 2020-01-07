@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".sampleprint.MainActivity">
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:layout_alignParentTop="true"
+    />
+
+    <RadioGroup
+        android:id="@+id/radGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/txtInfo"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radBixolon"
+            android:textSize="@dimen/textFontSize"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/bixolon_brand"/>
+
+        <RadioButton
+            android:id="@+id/radRongta"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/textFontSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rongta_brand"/>
+
+        <RadioButton
+            android:id="@+id/radWoosim"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/textFontSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/woosim_brand"/>
+
+        <RadioButton
+            android:id="@+id/radOthers"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/textFontSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/other_brands"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radGroup"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/do_print"
+        />
+
+</RelativeLayout>
