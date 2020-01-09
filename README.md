@@ -55,7 +55,7 @@ To test the app, just choose your printer brand and press the print button.
 ## More information
 Please contact us via Email or visit our websites for more information. Since the websites are in Farsi, Google Translate service can be helpful for translation however it is not always accurate.
 * info@kasabeh.org
-* [http://opensource.kasabeh.org](http://opensource.kasabeh.org)
-* [http://mobile.kasabeh.org](http://mobile.kasabeh.org)
-* [https://kasabeh.org](https://kasabeh.org)
+* Kasabeh Pocket Accounting, our Android accounting app: [http://mobile.kasabeh.org](http://mobile.kasabeh.org)
 * Kasabeh Pocket Accounting app on the CafeBazaar Iranian Android market: [https://cafebazaar.ir/app/ilia.anrdAcunt.ui?l=en](https://cafebazaar.ir/app/ilia.anrdAcunt.ui?l=en)
+* [http://opensource.kasabeh.org](http://opensource.kasabeh.org)
+* [https://kasabeh.org](https://kasabeh.org)
