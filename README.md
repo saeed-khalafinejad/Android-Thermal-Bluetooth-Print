@@ -22,6 +22,7 @@ package in your own project. Some notes about the project:
 
 First, implement the `IPrintToPrinter` interface:
 
+```java
     public class TestPrinter implements IPrintToPrinter {
         ...
         @Override
@@ -34,14 +35,17 @@ First, implement the `IPrintToPrinter` interface:
         }
         ...
     }
+```
 
 Then, instantiate the print manager class to make the Bluetooth connection and to issue the print command:
 
+```java
     ...
     IPrintToPrinter testPrinter = new TestPrinter(this);
     //The below command makes a connection to the printer and after successful connection issues the print command.
     mPrnMng = printerFactory.createPrnMng(this, blutoothAddr, testPrinter);
     ...
+```
 
 # App Screenshot
 To test the app, just choose your printer brand and press the print button.
